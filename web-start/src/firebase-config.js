@@ -1,4 +1,4 @@
-import config from './config';
+const config = require('./config');
 /**
  * To find your Firebase config object:
  *
@@ -7,7 +7,6 @@ import config from './config';
  * 3. Select Config from the Firebase SDK snippet pane.
  * 4. Copy the config object snippet, then add it here.
  */
-
 
 export function getFirebaseConfig() {
   if (!config || !config.apiKey) {
